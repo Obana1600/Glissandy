@@ -58,3 +58,6 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 DirectXGame/Resources/music/*.wav filter=lfs diff=lfs merge=lfs -text
+Resources/music/*.wav filter=lfs diff=lfs merge=lfs -text
+Resources/music/*.wav !text !filter !merge !diff
+Resources/music/bgm_*.wav filter=lfs diff=lfs merge=lfs -text
