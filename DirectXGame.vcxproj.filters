@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{53734c1c-cca5-4820-b284-6f5132532b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\core">
+      <UniqueIdentifier>{c3e88c0a-0114-4cf1-aa05-6ffe3a279a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{1c28f39b-fc84-4143-a747-ea89c2792cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imguizmo">
+      <UniqueIdentifier>{41d696c0-876b-4578-8060-2e14f5c9d465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{51774080-6dae-4f50-b33e-518a729a1061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\camera">
+      <UniqueIdentifier>{5d5b71d4-05d3-47a1-88b6-679c86a36b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\debug">
+      <UniqueIdentifier>{c17bee40-d0b3-48e9-9bc6-e586558f65b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\tween">
+      <UniqueIdentifier>{efe5fced-d710-4007-a602-e51c2ef69152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\text">
+      <UniqueIdentifier>{02a27e7a-4f74-4b39-851c-25d3464eeb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\collision">
+      <UniqueIdentifier>{298fff94-72ec-4297-8dda-7d4bb04321d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\freetype">
+      <UniqueIdentifier>{8db64411-5e05-441f-b44e-764623727396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{eef18005-2ddd-44d9-8e73-30d5acbf98ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\freetype\base">
+      <UniqueIdentifier>{db6c0ace-8aa7-4c45-a942-10e8eac79d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\freetype\driver">
+      <UniqueIdentifier>{518d0289-5887-4db1-b6ed-c763a0ecce93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\freetype\helper">
+      <UniqueIdentifier>{cf6337e7-c1b5-4479-add4-a222a14367db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\track">
+      <UniqueIdentifier>{8c28910b-2c72-4c07-b5d0-0a070dc8879d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{858ca8a6-4a9a-489b-aedd-5ddea55dd09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\particle">
+      <UniqueIdentifier>{5644eb48-954b-44a5-8689-8b34dd7f5f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui">
+      <UniqueIdentifier>{7dd05ab0-2f94-4281-b8ba-1a360bd1afb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>object\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>object\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>object\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneFactory.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertString.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\TextBase.cpp">
+      <Filter>utility\text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\FontLoader.cpp">
+      <Filter>utility\text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\Text2D.cpp">
+      <Filter>utility\text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\TextRenderer.cpp">
+      <Filter>utility\text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\Text3D.cpp">
+      <Filter>utility\text</Filter>
+    </ClCompile>
+    <ClCompile Include="Tween\EaseManager.cpp">
+      <Filter>utility\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUi.cpp">
+      <Filter>utility\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiEditor.cpp">
+      <Filter>utility\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GizmoEditor.cpp">
+      <Filter>utility\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRenderer.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\base\ftbase.c">
+      <Filter>external\freetype\base</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\base\ftbbox.c">
+      <Filter>external\freetype\base</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\base\ftbitmap.c">
+      <Filter>external\freetype\base</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\base\ftdebug.c">
+      <Filter>external\freetype\base</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\base\ftglyph.c">
+      <Filter>external\freetype\base</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\base\ftinit.c">
+      <Filter>external\freetype\base</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\base\ftmm.c">
+      <Filter>external\freetype\base</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\base\ftsystem.c">
+      <Filter>external\freetype\base</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\bdf\bdf.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\cff\cff.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\pcf\pcf.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\pfr\pfr.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\truetype\truetype.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\type1\type1.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\cid\type1cid.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\type42\type42.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\winfonts\winfnt.c">
+      <Filter>external\freetype\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\autofit\autofit.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\gzip\ftgzip.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\lzw\ftlzw.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\psaux\psaux.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\pshinter\pshinter.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\psnames\psnames.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\raster\raster.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\sdf\sdf.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\sfnt\sfnt.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\smooth\smooth.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\freetype\src\svg\svg.c">
+      <Filter>external\freetype\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imguizmo\ImGuizmo.cpp">
+      <Filter>external\imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicManager.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefab.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackManager.cpp">
+      <Filter>object\track</Filter>
+    </ClCompile>
+    <ClCompile Include="Track.cpp">
+      <Filter>object\track</Filter>
+    </ClCompile>
+    <ClCompile Include="StraightTrack.cpp">
+      <Filter>object\track</Filter>
+    </ClCompile>
+    <ClCompile Include="RailMover.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeT.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorLock.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCamera.cpp">
+      <Filter>object\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageFlash.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ConeTrack.cpp">
+      <Filter>object\track</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusEffect.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Reticle.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeShooter.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="BossController.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleRenderer.cpp">
+      <Filter>object\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>object\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <Filter>object\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_stdlib.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="TextButton.cpp">
+      <Filter>utility\text</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>object\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>object\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionAttribute.h">
+      <Filter>object\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>object\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneFactory.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertString.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\FontLoader.h">
+      <Filter>utility\text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\Text3D.h">
+      <Filter>utility\text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\TextBase.h">
+      <Filter>utility\text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\TextRenderer.h">
+      <Filter>utility\text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\Text2D.h">
+      <Filter>utility\text</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween\TweenBase.h">
+      <Filter>utility\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween\Tweener.h">
+      <Filter>utility\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween\EaseFunc.h">
+      <Filter>utility\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween\EaseManager.h">
+      <Filter>utility\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween\Sequence.h">
+      <Filter>utility\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween\Tween.h">
+      <Filter>utility\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween\TweenManager.h">
+      <Filter>utility\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUi.h">
+      <Filter>utility\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiEditor.h">
+      <Filter>utility\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GizmoEditor.h">
+      <Filter>utility\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderer.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicManager.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefab.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackManager.h">
+      <Filter>object\track</Filter>
+    </ClInclude>
+    <ClInclude Include="Track.h">
+      <Filter>object\track</Filter>
+    </ClInclude>
+    <ClInclude Include="StraightTrack.h">
+      <Filter>object\track</Filter>
+    </ClInclude>
+    <ClInclude Include="RailMover.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeT.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorLock.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCamera.h">
+      <Filter>object\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageFlash.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusAttribute.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ConeTrack.h">
+      <Filter>object\track</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusEffect.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Reticle.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="BossController.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeShooter.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleRenderer.h">
+      <Filter>object\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>object\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>object\core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextButton.h">
+      <Filter>utility\text</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
